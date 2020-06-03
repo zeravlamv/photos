@@ -53,7 +53,7 @@
         .links>a {
             color: #636b6f;
             padding: 0 25px;
-            font-size: 13px;
+            font-size: 18px;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;
@@ -75,31 +75,24 @@
             @else
             <a href="{{ route('login') }}">Login</a>
 
-            @if (Route::has('register'))
+            <!-- @if (Route::has('register'))
             <a href="{{ route('register') }}">Register</a>
-            @endif
+            @endif -->
             @endauth
         </div>
         @endif
-       
+
 
         <div class="content">
-            <!-- <div class="title m-b-md">
-                WHAKALA
-            </div> -->
-            <div class="title m-b-md"><img src="{{asset ('assets/img/whakala_logo_200x200.png')}}"></div>
-            <div class="m-b-md">
-                Laravel
-            </div>
+          <div class="title m-b-md"><img src="{{asset ('assets/img/whakala_logo_200x200.png')}}" width="300" height="300"></div>
             <div class="links">
-                <a href="https://laravel.com/docs">Docs</a>
-                <a href="https://laracasts.com">Laracasts</a>
-                <a href="https://laravel-news.com">News</a>
-                <a href="https://blog.laravel.com">Blog</a>
-                <a href="https://nova.laravel.com">Nova</a>
-                <a href="https://forge.laravel.com">Forge</a>
-                <a href="https://vapor.laravel.com">Vapor</a>
-                <a href="https://github.com/laravel/laravel">GitHub</a>
+                <a href="#">Analisis</a>
+                <a href="#">IBM i</a>
+                <a href="#">Apache/MySql/PhP</a>
+                <a href="#">SEO</a>
+                <a href="#">Desarrollo WEB</a>
+                <a href="#">Laravel</a>
+                <a href="#">Copywriter</a>
             </div>
         </div>
     </div>
